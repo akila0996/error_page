@@ -52,3 +52,27 @@ height: 5vh;
 text-align: center;
 color: gray;
 }
+
+
+                 /*---------------Media query------------*/
+
+@media (min-width:360px) and (max-width:765px) {
+    header{
+        text-align: center;
+        margin-right: 4rem;
+    }
+    main img{
+        width: 100%;
+        float: left;
+        margin-left: 6rem;  
+    }
+    .content-wrapper{
+        width: 100%;
+        display: block;
+        text-align: center;
+       
+    }
+    .content-wrapper h1{
+        font-size: 35px;
+    }
+}
